@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Prediction System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">DiseasePredict</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#predict">Predict Disease</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Disease Prediction System</h1>
+            <p>Fast and accurate health predictions based on symptoms.</p>
+            <a href="#predict" class="btn">Predict Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2>About</h2>
+            <p>This system predicts possible diseases based on selected symptoms and patient information.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Patient Data Form</h3>
+                    <p>Fill in health details for accurate predictions.</p>
+                </div>
+                <div class="card">
+                    <h3>AI Prediction</h3>
+                    <p>AI analyzes symptoms and predicts possible diseases.</p>
+                </div>
+                <div class="card">
+                    <h3>Precaution Guidance</h3>
+                    <p>Receive recommended precautions after prediction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Predict Section -->
+    <section class="section" id="predict">
+        <div class="container">
+            <h2>Predict Disease</h2>
+            <form id="predictForm">
+                <input type="text" placeholder="Full Name">
+                <input type="number" placeholder="Age">
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+                <input type="text" placeholder="Symptoms (comma separated)">
+                <button type="submit" class="btn">Predict</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 DiseasePredict. All rights reserved.</p>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
